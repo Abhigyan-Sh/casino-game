@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outermostContainer{
+    border: 2px solid black;
+    width: 1000px;
+    height: 620px;
+    margin: 0 auto;
+    /* background-image: radial-gradient(pink 50%, plum) */
+}
+#challenge,h3{
+    text-align: center;
+}
+.cardThrowTable{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    /* background-color: cadetblue; */
+    height: 60%;
+    background-image: url("poker-table-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 620px;
+}
+#your-box{
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+#dealer-box{
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    color:white;
+}
+.buttonsOnTable{
+    outline: 1px solid black;
+    /* outline done instead of border so as there's no increase in width of border due to overlapping */
+    padding: 9px;
+    background-image: url("poker-table-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+}
+#buttonContainerClass{
+    margin-left: 38%;
+    border: 1px solid black;
+    padding: 7px;
+    width: 249px;
+    border-radius: 10px;
+}
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    height:75px;
+    /* align-content: center; */
+    /* background-color: blanchedalmond; */
+}
+table{
+    height: 40px;
+    align-self: center;
+}
+th,td,table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    padding: 3px;
+}
+img{
+    width: 80px;
+    height: 120px;
+    margin:10px;
+}
+body{
+    color: white;
+    background-color: rgb(30,30,30);
+}

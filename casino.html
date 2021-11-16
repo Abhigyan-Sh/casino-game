@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="casino.css">
+    <title>casino</title>
+</head>
+<body>
+    <div class="wholeGame">
+        <div id="top_bar">
+            <h2>casino</h2>
+            <p id="disp_scr">Let's play</p>
+        </div>
+ 
+        <div id="both_sidesOfTable">
+            <div id="your_sideOfTable">
+                <h2 id="your_sideStatus">You: <span id="your_result">0</span></h2>
+            </div>
+
+            <div id="its_sideOfTable">
+                <h2 id="its_sideStatus">Dealer: <span id="its_result">0</span></h2>
+            </div>
+        </div>
+
+        <div id="button_outerContainer">
+            <div id="button_Container">
+                <button id="hit_button">Hit</button>
+                <button id="stand_button">Stand</button>
+                <button id="deal_button">Deal</button>
+            </div>
+        </div>
+        <div id="table_container">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="color: seagreen;">wins</th>
+                        <th style="color:rgb(230, 211, 43);">losses</th>
+                        <th style="color: rgb(219, 0, 0);">deal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="winsID" style="color: seagreen;">0</td>
+                        <td id="lossesID" style="color:rgb(230, 211, 43);">0</td>
+                        <td id="drawID" style="color: rgb(219, 0, 0);">0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="drk">dark mode</div>
+    <script src="casino.js"></script>
+</body>
+</html>
